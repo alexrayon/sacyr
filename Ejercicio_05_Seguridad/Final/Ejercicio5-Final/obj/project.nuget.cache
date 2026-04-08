@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jhG1g5cjvLY=",
+  "success": true,
+  "projectFilePath": "/workspaces/sacyr/Ejercicio_05_Seguridad/Final/Ejercicio5-Final/Ejercicio5-Final.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0/microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
