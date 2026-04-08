@@ -1,0 +1,15 @@
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/Ejercicio6-Base.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/Ejercicio6-Base.AssemblyInfoInputs.cache
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/Ejercicio6-Base.AssemblyInfo.cs
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/Ejercicio6-Base.csproj.CoreCompileInputs.cache
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/Ejercicio6-Base.sourcelink.json
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/bin/Debug/net10.0/Ejercicio6-Base
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/bin/Debug/net10.0/Ejercicio6-Base.deps.json
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/bin/Debug/net10.0/Ejercicio6-Base.runtimeconfig.json
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/bin/Debug/net10.0/Ejercicio6-Base.dll
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/bin/Debug/net10.0/Ejercicio6-Base.pdb
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/Ejercicio6-Base.dll
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/refint/Ejercicio6-Base.dll
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/Ejercicio6-Base.pdb
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/Ejercicio6-Base.genruntimeconfig.cache
+/workspaces/sacyr/Ejercicio_06_Refactorizacion/Base/Ejercicio6-Base/obj/Debug/net10.0/ref/Ejercicio6-Base.dll
