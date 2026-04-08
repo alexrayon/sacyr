@@ -1,0 +1,5 @@
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_9_Estimacion_Funcionalidad\Infrastructure\obj\Debug\net10.0\Sacyr.Planos.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_9_Estimacion_Funcionalidad\Infrastructure\obj\Debug\net10.0\Sacyr.Planos.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_9_Estimacion_Funcionalidad\Infrastructure\obj\Debug\net10.0\Sacyr.Planos.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_9_Estimacion_Funcionalidad\Infrastructure\obj\Debug\net10.0\Sacyr.Planos.Infrastructure.AssemblyInfo.cs
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_9_Estimacion_Funcionalidad\Infrastructure\obj\Debug\net10.0\Sacyr.Planos.Infrastructure.csproj.CoreCompileInputs.cache

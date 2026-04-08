@@ -1,0 +1,8 @@
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos est├ín actualizados para la restauraci├│n.
+  TbmTelemetry.Core -> C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\bin\Debug\net10.0\TbmTelemetry.Core.dll
+  TbmTelemetry.Tests -> C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Tests\bin\Debug\net10.0\TbmTelemetry.Tests.dll
+Serie de pruebas para C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Tests\bin\Debug\net10.0\TbmTelemetry.Tests.dll (.NETCoreApp,Version=v10.0)
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+
+Correctas! - Con error:     0, Superado:     7, Omitido:     0, Total:     7, Duraci├│n: 26 ms - TbmTelemetry.Tests.dll (net10.0)

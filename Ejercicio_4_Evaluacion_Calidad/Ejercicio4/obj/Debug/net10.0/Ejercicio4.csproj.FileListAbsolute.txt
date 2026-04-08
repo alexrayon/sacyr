@@ -1,0 +1,14 @@
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\bin\Debug\net10.0\Ejercicio4.exe
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\bin\Debug\net10.0\Ejercicio4.deps.json
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\bin\Debug\net10.0\Ejercicio4.runtimeconfig.json
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\bin\Debug\net10.0\Ejercicio4.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\bin\Debug\net10.0\Ejercicio4.pdb
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\Ejercicio4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\Ejercicio4.AssemblyInfoInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\Ejercicio4.AssemblyInfo.cs
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\Ejercicio4.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\refint\Ejercicio4.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\Ejercicio4.pdb
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\Ejercicio4.genruntimeconfig.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_4_Evaluacion_Calidad\Ejercicio4\obj\Debug\net10.0\ref\Ejercicio4.dll

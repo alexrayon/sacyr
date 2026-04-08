@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TbmTelemetry.Core/TbmTelemetry.Core.csproj" />
+  <Project Path="TbmTelemetry.Tests/TbmTelemetry.Tests.csproj" />
+</Solution>

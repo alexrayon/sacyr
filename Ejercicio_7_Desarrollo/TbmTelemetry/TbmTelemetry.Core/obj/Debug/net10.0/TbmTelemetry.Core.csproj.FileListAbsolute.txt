@@ -1,0 +1,11 @@
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\bin\Debug\net10.0\TbmTelemetry.Core.deps.json
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\bin\Debug\net10.0\TbmTelemetry.Core.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\bin\Debug\net10.0\TbmTelemetry.Core.pdb
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\obj\Debug\net10.0\TbmTelemetry.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\obj\Debug\net10.0\TbmTelemetry.Core.AssemblyInfoInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\obj\Debug\net10.0\TbmTelemetry.Core.AssemblyInfo.cs
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\obj\Debug\net10.0\TbmTelemetry.Core.csproj.CoreCompileInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\obj\Debug\net10.0\TbmTelemetry.Core.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\obj\Debug\net10.0\refint\TbmTelemetry.Core.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\obj\Debug\net10.0\TbmTelemetry.Core.pdb
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_7_Desarrollo\TbmTelemetry\TbmTelemetry.Core\obj\Debug\net10.0\ref\TbmTelemetry.Core.dll

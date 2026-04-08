@@ -1,1 +1,4 @@
-Resumen de Cierre: 27500
+Proyecto: 1
+Estado: Closed
+Balance final: 27500
+Fecha UTC: 2026-04-08T15:45:31.2681695Z
