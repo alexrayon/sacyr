@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicio_0_Calculo_Edad", "Ejercicio_0_Calculo_Edad", "{7676C7A3-BD0E-EDEE-0A3D-81F7D73A6A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Final", "Final", "{167D2CA4-556C-1102-0DFD-34A4258A1AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoEdad", "Ejercicio_0_Calculo_Edad\Final\CalculoEdad.csproj", "{8B6B5A99-23F9-D1B5-FBA9-60D86A7C5484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B6B5A99-23F9-D1B5-FBA9-60D86A7C5484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6B5A99-23F9-D1B5-FBA9-60D86A7C5484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6B5A99-23F9-D1B5-FBA9-60D86A7C5484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6B5A99-23F9-D1B5-FBA9-60D86A7C5484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{167D2CA4-556C-1102-0DFD-34A4258A1AC4} = {7676C7A3-BD0E-EDEE-0A3D-81F7D73A6A34}
+		{8B6B5A99-23F9-D1B5-FBA9-60D86A7C5484} = {167D2CA4-556C-1102-0DFD-34A4258A1AC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC376ACD-DC81-4DEB-8BD0-AC56DADCC166}
+	EndGlobalSection
+EndGlobal

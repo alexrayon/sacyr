@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ValidacionCertificaciones.Application/ValidacionCertificaciones.Application.csproj" />
+    <Project Path="src/ValidacionCertificaciones.Console/ValidacionCertificaciones.Console.csproj" />
+    <Project Path="src/ValidacionCertificaciones.Domain/ValidacionCertificaciones.Domain.csproj" />
+    <Project Path="src/ValidacionCertificaciones.Infrastructure/ValidacionCertificaciones.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ValidacionCertificaciones.Tests/ValidacionCertificaciones.Tests.csproj" />
+  </Folder>
+</Solution>

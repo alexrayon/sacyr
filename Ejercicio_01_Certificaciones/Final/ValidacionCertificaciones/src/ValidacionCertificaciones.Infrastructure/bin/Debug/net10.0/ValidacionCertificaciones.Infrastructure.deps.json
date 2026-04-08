@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ValidacionCertificaciones.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ValidacionCertificaciones.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ValidacionCertificaciones.Infrastructure.dll": {}
+        }
+      },
+      "ValidacionCertificaciones.Domain/1.0.0": {
+        "runtime": {
+          "ValidacionCertificaciones.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValidacionCertificaciones.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidacionCertificaciones.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

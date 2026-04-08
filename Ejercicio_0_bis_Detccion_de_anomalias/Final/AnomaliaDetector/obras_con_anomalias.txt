@@ -1,0 +1,7 @@
+ID_Obra,Nombre_Obra,Fecha_Inicio,Fecha_Fin,Presupuesto,Estado
+OB001,Construcción Puente Central,15/03/2023,20/12/2024,2500000.00,En_Progreso
+OB001,Duplicado Puente,15/03/2023,20/12/2024,2500000.00,En_Progreso
+OB003,,15/03/2023,20/12/2024,2500000.00,En_Progreso
+OB004,Construcción Puente Central,15-03-2023,20/12/2024,2500000.00,En_Progreso
+OB005,Construcción Puente Central,15/03/2023,10/03/2023,2500000.00,En_Progreso
+OB006,Construcción Puente Central,15/03/2023,20/12/2024,-50000.00,En_Progreso

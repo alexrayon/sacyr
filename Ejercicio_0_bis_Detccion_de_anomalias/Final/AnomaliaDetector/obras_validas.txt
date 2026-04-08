@@ -1,0 +1,3 @@
+ID_Obra,Nombre_Obra,Fecha_Inicio,Fecha_Fin,Presupuesto,Estado
+OB001,Construcción Puente Central,15/03/2023,20/12/2024,2500000.00,En_Progreso
+OB002,Reforma Edificio Norte,10/01/2022,,150000.75,Cancelada

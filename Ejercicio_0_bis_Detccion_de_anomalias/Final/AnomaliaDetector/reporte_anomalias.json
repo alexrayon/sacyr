@@ -1,0 +1,34 @@
+{
+  "Anomalias": [
+    {
+      "NumeroLinea": 3,
+      "TipoError": "A004",
+      "Descripcion": "Duplicado: ID_Obra repetido en el archivo."
+    },
+    {
+      "NumeroLinea": 4,
+      "TipoError": "A003",
+      "Descripcion": "Campo Obligatorio Vac\u00EDo: Nombre_Obra."
+    },
+    {
+      "NumeroLinea": 5,
+      "TipoError": "A001",
+      "Descripcion": "Formato de Campo Inv\u00E1lido: Fecha_Inicio no tiene formato DD/MM/YYYY v\u00E1lido."
+    },
+    {
+      "NumeroLinea": 6,
+      "TipoError": "A005",
+      "Descripcion": "Inconsistencia L\u00F3gica: Fecha_Fin anterior a Fecha_Inicio."
+    },
+    {
+      "NumeroLinea": 7,
+      "TipoError": "A002",
+      "Descripcion": "Valor Fuera de Rango: Presupuesto debe ser positivo y \u003C= 100.000.000."
+    }
+  ],
+  "Resumen": {
+    "TotalRegistros": 6,
+    "RegistrosValidos": 1,
+    "AnomaliasDetectadas": 5
+  }
+}

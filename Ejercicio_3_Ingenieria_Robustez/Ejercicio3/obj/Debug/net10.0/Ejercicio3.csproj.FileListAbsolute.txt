@@ -1,0 +1,14 @@
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\bin\Debug\net10.0\Ejercicio3.exe
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\bin\Debug\net10.0\Ejercicio3.deps.json
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\bin\Debug\net10.0\Ejercicio3.runtimeconfig.json
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\bin\Debug\net10.0\Ejercicio3.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\bin\Debug\net10.0\Ejercicio3.pdb
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\Ejercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\Ejercicio3.AssemblyInfoInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\Ejercicio3.AssemblyInfo.cs
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\Ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\Ejercicio3.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\refint\Ejercicio3.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\Ejercicio3.pdb
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\Ejercicio3.genruntimeconfig.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercio_3_Ingenieria_Robustez\Ejercicio3\obj\Debug\net10.0\ref\Ejercicio3.dll

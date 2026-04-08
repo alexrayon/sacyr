@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vft4tLAGBw0=",
+  "success": true,
+  "projectFilePath": "/workspaces/sacyr/Ejercicio_01_Certificaciones/Final/ValidacionCertificaciones/src/ValidacionCertificaciones.Application/ValidacionCertificaciones.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.14/microsoft.extensions.dependencyinjection.abstractions.9.0.14.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.14/microsoft.extensions.logging.abstractions.9.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

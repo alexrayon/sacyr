@@ -1,0 +1,7 @@
+Numero_Linea,Tipo_Error,Descripcion
+3,A004,Duplicado: ID_Obra repetido en el archivo.
+4,A003,Campo Obligatorio Vacío: Nombre_Obra.
+5,A001,Formato de Campo Inválido: Fecha_Inicio no tiene formato DD/MM/YYYY válido.
+6,A005,Inconsistencia Lógica: Fecha_Fin anterior a Fecha_Inicio.
+7,A002,Valor Fuera de Rango: Presupuesto debe ser positivo y <= 100.000.000.
+Total registros procesados: 6, Registros válidos: 1, Anomalías detectadas: 5

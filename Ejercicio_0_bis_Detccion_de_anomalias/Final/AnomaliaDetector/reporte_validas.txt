@@ -1,0 +1,2 @@
+Numero_Linea,Tipo_Error,Descripcion
+Total registros procesados: 2, Registros válidos: 2, Anomalías detectadas: 0

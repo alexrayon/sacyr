@@ -1,0 +1,14 @@
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\bin\Debug\net10.0\AnomaliaDetector.exe
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\bin\Debug\net10.0\AnomaliaDetector.deps.json
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\bin\Debug\net10.0\AnomaliaDetector.runtimeconfig.json
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\bin\Debug\net10.0\AnomaliaDetector.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\bin\Debug\net10.0\AnomaliaDetector.pdb
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\AnomaliaDetector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\AnomaliaDetector.AssemblyInfoInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\AnomaliaDetector.AssemblyInfo.cs
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\AnomaliaDetector.csproj.CoreCompileInputs.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\AnomaliaDetector.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\refint\AnomaliaDetector.dll
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\AnomaliaDetector.pdb
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\AnomaliaDetector.genruntimeconfig.cache
+C:\Users\alvar\Desktop\Brain&Code\Sacyr\Ejercicio_0_bis_Detccion_de_anomalias\Final\AnomaliaDetector\obj\Debug\net10.0\ref\AnomaliaDetector.dll
