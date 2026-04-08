@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/Ejercicio_01_Certificaciones/Final/SIVCOValidator/SIVCOValidator.csproj",
+                "/property:GenerateFullPaths=true",
+                "/p:Configuration=Debug",
+                "/p:Platform=AnyCPU"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "run-sivco",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/Ejercicio_01_Certificaciones/Final/SIVCOValidator/SIVCOValidator.csproj"
+            ],
+            "dependsOn": "build"
+        }
+    ]
+}
