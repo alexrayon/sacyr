@@ -1,5 +1,0 @@
-{
-    "dotnet.defaultSolution": "Ejercicio_01_Certificaciones/Final/SIVCOValidator/SIVCOValidator.csproj",
-    "dotnet.defaultSolutionOrFolder": "Ejercicio_01_Certificaciones/Final/SIVCOValidator",
-    "csharp.suppressDotnetInstallWarning": true
-}
