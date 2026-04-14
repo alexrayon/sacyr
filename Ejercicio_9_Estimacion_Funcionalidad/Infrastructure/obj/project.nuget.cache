@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "gw9ffafp1T4=",
+  "dgSpecHash": "0s4hyTQeees=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alvar\\Desktop\\Brain&Code\\Sacyr\\Ejercicio_9_Estimacion_Funcionalidad\\Infrastructure\\Sacyr.Planos.Infrastructure.csproj",
+  "projectFilePath": "/workspaces/sacyr/Ejercicio_9_Estimacion_Funcionalidad/Infrastructure/Sacyr.Planos.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alvar\\.nuget\\packages\\azure.core\\1.36.0\\azure.core.1.36.0.nupkg.sha512",
-    "C:\\Users\\alvar\\.nuget\\packages\\azure.storage.blobs\\12.19.1\\azure.storage.blobs.12.19.1.nupkg.sha512",
-    "C:\\Users\\alvar\\.nuget\\packages\\azure.storage.common\\12.18.1\\azure.storage.common.12.18.1.nupkg.sha512",
-    "C:\\Users\\alvar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\alvar\\.nuget\\packages\\polly\\8.2.0\\polly.8.2.0.nupkg.sha512",
-    "C:\\Users\\alvar\\.nuget\\packages\\polly.core\\8.2.0\\polly.core.8.2.0.nupkg.sha512",
-    "C:\\Users\\alvar\\.nuget\\packages\\system.io.hashing\\6.0.0\\system.io.hashing.6.0.0.nupkg.sha512",
-    "C:\\Users\\alvar\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512"
+    "/home/codespace/.nuget/packages/azure.core/1.36.0/azure.core.1.36.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/azure.storage.blobs/12.19.1/azure.storage.blobs.12.19.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/azure.storage.common/12.18.1/azure.storage.common.12.18.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/polly/8.2.0/polly.8.2.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/polly.core/8.2.0/polly.core.8.2.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.io.hashing/6.0.0/system.io.hashing.6.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }

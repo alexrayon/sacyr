@@ -194,7 +194,7 @@ Este documento explica cómo verificar que cada ejercicio del proyecto está fun
 **Descripción:** Auditoría de rendimiento, análisis de impacto arquitectónico, ADR y codificación del repositorio C# para migración a Azure Blob Storage.
 
 **Pasos para comprobar:**
-1. Es necesario tener el emulador *Azurite* levantado localmente de fondo.
+1. Al ser una libreria con hacer el comando dotnet build y ver que no hay errores ya deberia estar lista para su uso
 2. Compilar y ejecutar tests:
    ```powershell
    cd Ejercicio_9_Estimacion_Funcionalidad\Tests
@@ -206,16 +206,3 @@ Este documento explica cómo verificar que cada ejercicio del proyecto está fun
 
 **Descripción:** Optimización de consulta SQL Server para reporte de consumo de maquinaria, eliminando subconsultas correlacionadas y añadiendo índices de cobertura.
 
-**Pasos para comprobar:**
-1. Ejecutar baseline (consulta lenta) en SQL Server:
-   ```powershell
-   sqlcmd -S <SERVIDOR> -d <BASE_DATOS> -E -i Ejercicio_10_Optimizacion\Base\Ejercicio10-Base.sql
-   ```
-2. Ejecutar versión optimizada:
-   ```powershell
-   sqlcmd -S <SERVIDOR> -d <BASE_DATOS> -E -i Ejercicio_10_Optimizacion\Final\Ejercicio10-Final.sql
-   ```
-3. Verificar rendimiento y plan de ejecución:
-   - Comparar `STATISTICS IO/TIME` entre baseline y versión final.
-   - Confirmar reducción de lecturas lógicas en `Movimientos`.
-   - Confirmar ausencia (o reducción drástica) de subconsultas correlacionadas y `Key/RID Lookup` masivos.
