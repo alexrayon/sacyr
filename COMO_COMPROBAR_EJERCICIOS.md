@@ -206,3 +206,82 @@ Este documento explica cómo verificar que cada ejercicio del proyecto está fun
 
 **Descripción:** Optimización de consulta SQL Server para reporte de consumo de maquinaria, eliminando subconsultas correlacionadas y añadiendo índices de cobertura.
 
+## Ejercicio_11_Ciencia_Datos
+
+**Descripción:** Flujo de mantenimiento predictivo con Machine Learning para detección de fallo en maquinaria a partir de sensores.
+
+**Pasos para comprobar:**
+1. Ir a la carpeta del ejercicio:
+   ```powershell
+   cd Ejercicio_11_Ciencia_Datos
+   ```
+2. Instalar dependencias necesarias (si no están instaladas):
+   ```powershell
+   pip install pandas matplotlib seaborn scikit-learn
+   ```
+3. Ejecutar el script principal:
+   ```powershell
+   python predictivo.py
+   ```
+4. Verificar:
+   - Debe localizar `sensores_maquinaria.csv` sin error.
+   - Debe mostrar métricas de evaluación (Recall, Classification Report y matriz de confusión).
+   - Debe generar/actualizar la imagen `correlacion_fallos.png` en la misma carpeta.
+
+## Ejercicio_12_APIs
+
+**Descripción:** Monitor de viento robusto para operación de grúas, con consumo de API, validación de contrato y degradación segura.
+
+**Pasos para comprobar:**
+1. Ir a la carpeta del ejercicio:
+   ```powershell
+   cd Ejercicio_12_APIs
+   ```
+2. Instalar dependencia HTTP (si no está instalada):
+   ```powershell
+   pip install requests
+   ```
+3. (Opcional) Crear archivo de entorno desde plantilla:
+   ```powershell
+   copy .env.example .env
+   ```
+   - Si no se configura `WEATHER_API_BASE_URL`, el monitor usa simulador local automáticamente.
+4. Ejecutar el monitor:
+   ```powershell
+   python monitor_viento.py
+   ```
+5. Verificar:
+   - Debe refrescar la salida cada 10 segundos.
+   - Debe mostrar `ESTADO NORMAL`, `ALERTA AMBAR` o `ALERTA ROJA` según velocidad del viento.
+   - Ante fallo de API/timeout debe mostrar `ALERTA DE SISTEMA`.
+
+## Ejercicio_13_Migracion_Angular
+
+**Descripción:** Migración de componente middleware a Angular 21 con enfoque moderno (signals y control flow) y preparación zoneless.
+
+**Pasos para comprobar:**
+1. Ir al proyecto Angular:
+   ```powershell
+   cd Ejercicio_13_Migracion_Angular\visor-middleware-v21
+   ```
+2. Instalar dependencias:
+   ```powershell
+   npm install
+   ```
+3. Compilar proyecto:
+   ```powershell
+   npm run build
+   ```
+4. Ejecutar tests:
+   ```powershell
+   npm test
+   ```
+5. Levantar la aplicación para validación visual:
+   ```powershell
+   npm start
+   ```
+6. Verificar:
+   - La aplicación arranca sin errores de compilación.
+   - El componente migrado mantiene el comportamiento funcional esperado.
+   - No aparecen regresiones en renderizado ni en flujo de carga en la vista.
+
