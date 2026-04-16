@@ -1,0 +1,15 @@
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/bin/Debug/net10.0/CalculoEdad
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/bin/Debug/net10.0/CalculoEdad.deps.json
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/bin/Debug/net10.0/CalculoEdad.runtimeconfig.json
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/bin/Debug/net10.0/CalculoEdad.dll
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/bin/Debug/net10.0/CalculoEdad.pdb
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/CalculoEdad.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/CalculoEdad.AssemblyInfoInputs.cache
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/CalculoEdad.AssemblyInfo.cs
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/CalculoEdad.csproj.CoreCompileInputs.cache
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/CalculoEdad.sourcelink.json
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/CalculoEdad.dll
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/refint/CalculoEdad.dll
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/CalculoEdad.pdb
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/CalculoEdad.genruntimeconfig.cache
+/home/runner/work/sacyr/sacyr/Ejercicio_0_Calculo_Edad/Final/CalculoEdad/obj/Debug/net10.0/ref/CalculoEdad.dll
