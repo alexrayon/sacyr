@@ -1,22 +1,42 @@
-type ClassDecoratorFn = <TFunction extends Function>(target: TFunction) => TFunction | void;
-
 interface OnInit {
   ngOnInit(): void;
 }
 
-function Component(_metadata: {
+type ComponentMetadata = {
   selector: string;
-  standalone?: boolean;
-  imports?: unknown[];
-  template?: string;
-  styles?: string[];
-}): ClassDecoratorFn {
+  standalone: boolean;
+  imports: unknown[];
+  template: string;
+  styles: string[];
+};
+
+function Component(_metadata: ComponentMetadata): ClassDecorator {
   return () => {
-    // Decorador no-op para mantener compatibilidad en entorno sin Angular.
+    // No-op decorator para mantener el ejemplo autocontenido en este workspace.
   };
 }
 
 class CommonModule {}
+
+interface Observable<T> {
+  readonly current: T;
+}
+
+class BehaviorSubject<T> {
+  private value: T;
+
+  constructor(initialValue: T) {
+    this.value = initialValue;
+  }
+
+  next(newValue: T): void {
+    this.value = newValue;
+  }
+
+  asObservable(): Observable<T> {
+    return { current: this.value };
+  }
+}
 
 // Definimos una interfaz para asegurar la integridad de los datos de Sacyr
 interface SensorData {
@@ -45,11 +65,11 @@ interface SensorData {
 
       <div *ngIf="!loading && !error">
         <div class="stats-summary">
-          Total Dispositivos: {{ items.length }}
+          Total Dispositivos: {{ (items$ | async)?.length }}
         </div>
         
         <ul class="sensor-list">
-          <li *ngFor="let item of items" class="sensor-item">
+          <li *ngFor="let item of items$ | async" class="sensor-item">
             <div class="sensor-info">
               <span class="sensor-name">{{ item.name }}</span>
               <span class="sensor-detail">ID: {{ item.id }} | Lectura: {{ item.lastReading }}{{ item.unit }}</span>
@@ -84,16 +104,19 @@ interface SensorData {
 export class MiddlewareStatusComponent implements OnInit {
   loading = true;
   error = false;
-  items: SensorData[] = [];
+  
+  // Usamos el tipo definido en la interfaz
+  private itemsSubject = new BehaviorSubject<SensorData[]>([]);
+  items$ = this.itemsSubject.asObservable();
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.refreshData();
   }
 
   /**
    * Simula la petición a la API del Middleware
    */
-  refreshData() {
+  refreshData(): void {
     this.loading = true;
     this.error = false;
 
@@ -107,9 +130,9 @@ export class MiddlewareStatusComponent implements OnInit {
           { id: 104, name: 'Sensor Vibración Talud', active: true, lastReading: 0.02, unit: 'mm/s' }
         ];
 
-        this.items = mockData;
+        this.itemsSubject.next(mockData);
         this.loading = false;
-      } catch (err) {
+      } catch {
         this.error = true;
         this.loading = false;
       }
