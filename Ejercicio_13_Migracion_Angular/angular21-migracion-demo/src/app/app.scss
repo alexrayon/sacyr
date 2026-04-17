@@ -1,0 +1,233 @@
+:host {
+	--page-bg: #f4efe6;
+	--surface: rgba(255, 250, 242, 0.86);
+	--surface-dark: #17313d;
+	--ink: #1f2933;
+	--muted: #5a6872;
+	--line: rgba(23, 49, 61, 0.14);
+	--accent: #c56a2d;
+	--success-soft: rgba(28, 124, 84, 0.12);
+	--warning-soft: rgba(181, 83, 52, 0.12);
+	color: var(--ink);
+	display: block;
+	min-height: 100dvh;
+	background:
+		radial-gradient(circle at top left, rgba(197, 106, 45, 0.18), transparent 28%),
+		radial-gradient(circle at right 20%, rgba(23, 49, 61, 0.12), transparent 22%),
+		linear-gradient(180deg, #efe6d7 0%, var(--page-bg) 54%, #efe9df 100%);
+	font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+}
+
+.page-shell {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 40px 24px 64px;
+}
+
+.hero {
+	padding: 28px;
+	border: 1px solid var(--line);
+	border-radius: 28px;
+	background: linear-gradient(135deg, rgba(255, 250, 242, 0.92), rgba(250, 243, 232, 0.7));
+	box-shadow: 0 24px 60px rgba(31, 41, 51, 0.08);
+}
+
+.eyebrow {
+	margin: 0 0 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	font-size: 0.76rem;
+	color: var(--accent);
+	font-weight: 700;
+}
+
+.hero-copy {
+	display: grid;
+	grid-template-columns: minmax(0, 2fr) minmax(260px, 340px);
+	gap: 24px;
+	align-items: start;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+h1 {
+	font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+	font-size: clamp(2.4rem, 4vw, 4.6rem);
+	line-height: 0.95;
+	margin-bottom: 18px;
+	max-width: 12ch;
+}
+
+h2 {
+	font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+	font-size: clamp(1.8rem, 3vw, 2.6rem);
+	line-height: 1;
+}
+
+.hero-text {
+	max-width: 70ch;
+	font-size: 1.05rem;
+	line-height: 1.7;
+	color: var(--muted);
+}
+
+.hero-note {
+	border-radius: 24px;
+	background: var(--surface-dark);
+	color: #f3efe8;
+	padding: 20px;
+	display: grid;
+	gap: 10px;
+	align-self: stretch;
+}
+
+.hero-note-label,
+.panel-badge,
+.highlight-state span {
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	font-size: 0.7rem;
+	font-weight: 700;
+}
+
+.highlights-grid,
+.comparison-section,
+.improvements-section {
+	margin-top: 28px;
+}
+
+.highlights-grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 16px;
+}
+
+.highlight-card,
+.panel-column,
+.improvement-list li {
+	border: 1px solid var(--line);
+	background: var(--surface);
+	backdrop-filter: blur(10px);
+	box-shadow: 0 18px 34px rgba(31, 41, 51, 0.06);
+}
+
+.highlight-card {
+	border-radius: 24px;
+	padding: 18px;
+	display: grid;
+	gap: 14px;
+}
+
+.highlight-title {
+	font-size: 1.02rem;
+	font-weight: 700;
+}
+
+.highlight-state {
+	border-radius: 16px;
+	padding: 14px;
+	display: grid;
+	gap: 8px;
+}
+
+.highlight-state.before {
+	background: var(--warning-soft);
+}
+
+.highlight-state.after {
+	background: var(--success-soft);
+}
+
+.highlight-state p,
+.panel-header p {
+	color: var(--muted);
+	line-height: 1.55;
+}
+
+.section-heading {
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+	align-items: end;
+	margin-bottom: 18px;
+}
+
+.section-heading.compact {
+	display: block;
+}
+
+.comparison-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 18px;
+}
+
+.panel-column {
+	border-radius: 28px;
+	padding: 18px;
+}
+
+.panel-header {
+	border-radius: 22px;
+	padding: 18px;
+	margin-bottom: 16px;
+	display: grid;
+	gap: 8px;
+}
+
+.panel-header.legacy {
+	background: linear-gradient(135deg, rgba(181, 83, 52, 0.16), rgba(181, 83, 52, 0.06));
+}
+
+.panel-header.modern {
+	background: linear-gradient(135deg, rgba(28, 124, 84, 0.16), rgba(28, 124, 84, 0.06));
+}
+
+.improvement-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 14px;
+}
+
+.improvement-list li {
+	border-radius: 20px;
+	padding: 18px;
+	line-height: 1.65;
+}
+
+@media (max-width: 1080px) {
+	.highlights-grid,
+	.comparison-grid,
+	.improvement-list {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.hero-copy {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 720px) {
+	.page-shell {
+		padding: 20px 14px 40px;
+	}
+
+	.highlights-grid,
+	.comparison-grid,
+	.improvement-list {
+		grid-template-columns: 1fr;
+	}
+
+	.hero,
+	.panel-column {
+		border-radius: 22px;
+	}
+}

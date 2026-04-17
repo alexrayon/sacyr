@@ -1,0 +1,79 @@
+<main class="page-shell">
+  <section class="hero">
+    <p class="eyebrow">Sacyr · Migracion Angular 15 a Angular 21</p>
+    <div class="hero-copy">
+      <div>
+        <h1>Demo ejecutable de la migracion del panel de sensores</h1>
+        <p class="hero-text">
+          Esta aplicacion muestra en paralelo el enfoque anterior y el componente migrado para visualizar
+          el cambio a standalone, Signals, control flow moderno y arranque zoneless.
+        </p>
+      </div>
+
+      <aside class="hero-note">
+        <span class="hero-note-label">Resultado</span>
+        <strong>Angular 21.2</strong>
+        <p>Render reactivo fino, menos complejidad accidental y mejor trazabilidad del estado.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="highlights-grid" aria-label="Resumen de la migracion">
+    @for (item of migrationHighlights; track item.title) {
+      <article class="highlight-card">
+        <p class="highlight-title">{{ item.title }}</p>
+        <div class="highlight-state before">
+          <span>Antes</span>
+          <p>{{ item.before }}</p>
+        </div>
+        <div class="highlight-state after">
+          <span>Ahora</span>
+          <p>{{ item.after }}</p>
+        </div>
+      </article>
+    }
+  </section>
+
+  <section class="comparison-section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Comparativa funcional</p>
+        <h2>Antes y despues en la misma pantalla</h2>
+      </div>
+      <p class="hero-text">La columna izquierda reproduce el patron previo. La derecha ejecuta el componente migrado.</p>
+    </div>
+
+    <div class="comparison-grid">
+      <section class="panel-column">
+        <header class="panel-header legacy">
+          <span class="panel-badge">Angular 15</span>
+          <h3>Implementacion anterior</h3>
+          <p>Estado local con BehaviorSubject, async pipe y sintaxis estructural legacy.</p>
+        </header>
+        <app-legacy-middleware-status />
+      </section>
+
+      <section class="panel-column">
+        <header class="panel-header modern">
+          <span class="panel-badge">Angular 21</span>
+          <h3>Componente migrado</h3>
+          <p>Standalone, Signals, &#64;if/&#64;for y validaciones de dominio preparadas para zoneless.</p>
+        </header>
+        <app-middleware-status />
+      </section>
+    </div>
+  </section>
+
+  <section class="improvements-section">
+    <div class="section-heading compact">
+      <p class="eyebrow">Mejoras aplicadas</p>
+      <h2>Que cambia respecto a la version anterior</h2>
+    </div>
+
+    <ul class="improvement-list">
+      @for (improvement of improvements; track improvement) {
+        <li>{{ improvement }}</li>
+      }
+    </ul>
+  </section>
+</main>
