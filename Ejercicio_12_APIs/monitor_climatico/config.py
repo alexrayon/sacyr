@@ -30,7 +30,8 @@ class MonitorConfig:
         base_url = os.getenv("WEATHER_API_BASE_URL", "").strip()
         api_key = os.getenv("WEATHER_API_KEY", "").strip()
 
-        if use_simulator:
+        # Fallback seguro: sin API configurada se usa simulador automaticamente.
+        if use_simulator or not base_url or not api_key:
             return cls(
                 weather_api_base_url=base_url or "SIMULATED",
                 weather_api_key=api_key or "SIMULATED_KEY",
@@ -41,11 +42,6 @@ class MonitorConfig:
                 ghost_gust_delta_threshold=_to_float("GHOST_GUST_DELTA_THRESHOLD", 20.0),
                 use_simulator=True,
             )
-
-        if not base_url:
-            raise ConfigurationError("Falta WEATHER_API_BASE_URL")
-        if not api_key:
-            raise ConfigurationError("Falta WEATHER_API_KEY")
 
         return cls(
             weather_api_base_url=base_url,
